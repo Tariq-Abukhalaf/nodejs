@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta name="robots" content="noindex" />
+        <link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="plugins/select2/css/select2.min.css" />
+        <link rel="stylesheet" type="text/css" href="plugins/Ionicons/css/ionicons.min.css" />
+        <link rel="stylesheet" type="text/css" href="plugins/adminlte/css/AdminLTE.min.css" />
+        <link rel="stylesheet" type="text/css" href="plugins/adminlte/css/skins/_all-skins.min.css" />
+        <link rel="stylesheet" type="text/css" href="plugins/iCheck/all.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    </head>
+    <body class="sidebar-mini skin-black-light">
+        <!-- .wrapper -->
+        <div class="wrapper">
+            <%- include('static/header') %>
+            <%- include('static/sidebar') %> 
+
+            <div class="content-wrapper">
+                <!-- .content -->
+                <section class="content">
+                    <h1> dashboard </h1>
+                </section>
+                <!-- /.content -->
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="modal fade" id="info-Modal" tabindex="-1" role="dialog" aria-labelledby="info-ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="info-ModalLabel"></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" style="overflow:auto;"></div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="main-footer">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> 1.0
+                </div>
+                <strong>Copyright &copy; <a href="">node server</a>.</strong>
+            </footer>
+        </div>
+        <!-- ./wrapper -->
+        <script type="text/javascript" src="plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="plugins/select2/js/select2.full.min.js"></script>
+        <script type="text/javascript" src="plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+        <script type="text/javascript" src="plugins/iCheck/icheck.min.js"></script>
+        <script type="text/javascript" src="plugins/fastclick/lib/fastclick.js"></script>
+        <script type="text/javascript" src="plugins/adminlte/js/adminlte.min.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+        <script type="text/javascript" src="js/validate.js"></script>
+        <script type="text/javascript" src="js/bootbox.min.js"></script>
+    </body>
+</html>

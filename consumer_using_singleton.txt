@@ -1,0 +1,54 @@
+
+> screenshot@1.0.0 consumer
+> node src/commands/consumer.command.js
+
+ [*] Waiting for messages. To exit, press CTRL+C
+puppeteerSingleton constructor activated!
+screenshot time: 5.37s 651560ddf7c38989c5fdc2ae - ACK
+screenshot time: 2.96s 651560ddf7c38989c5fdc2af - ACK
+screenshot time: 3.04s 651560def7c38989c5fdc2b0 - ACK
+screenshot time: 2.94s 651560def7c38989c5fdc2b1 - ACK
+screenshot time: 2.93s 651560def7c38989c5fdc2b2 - ACK
+screenshot time: 2.53s 651560def7c38989c5fdc2b3 - ACK
+screenshot time: 2.52s 651560dff7c38989c5fdc2b4 - ACK
+screenshot time: 2.90s 651560dff7c38989c5fdc2b5 - ACK
+screenshot time: 2.72s 651560dff7c38989c5fdc2b6 - ACK
+screenshot time: 2.49s 651560dff7c38989c5fdc2b7 - ACK
+screenshot time: 2.75s 651560dff7c38989c5fdc2b8 - ACK
+screenshot time: 2.82s 651560e0f7c38989c5fdc2b9 - ACK
+screenshot time: 2.65s 651560e0f7c38989c5fdc2ba - ACK
+screenshot time: 2.60s 651560e0f7c38989c5fdc2bb - ACK
+screenshot time: 2.87s 651560e0f7c38989c5fdc2bc - ACK
+screenshot time: 2.80s 651560e0f7c38989c5fdc2bd - ACK
+screenshot time: 2.80s 651560e1f7c38989c5fdc2be - ACK
+screenshot time: 2.91s 651560e1f7c38989c5fdc2bf - ACK
+screenshot time: 2.93s 651560e1f7c38989c5fdc2c0 - ACK
+screenshot time: 2.79s 651560e1f7c38989c5fdc2c1 - ACK
+screenshot time: 2.85s 651560e1f7c38989c5fdc2c2 - ACK
+
+> screenshot@1.0.0 consumer
+> node src/commands/consumer.command.js
+
+ [*] Waiting for messages. To exit, press CTRL+C
+puppeteerSingleton constructor activated!
+screenshot time: 5.61s 65156181f7c38989c5fdc2c3 - ACK
+screenshot time: 2.76s 65156181f7c38989c5fdc2c4 - ACK
+screenshot time: 2.97s 65156182f7c38989c5fdc2c5 - ACK
+screenshot time: 2.74s 65156182f7c38989c5fdc2c6 - ACK
+screenshot time: 2.67s 65156182f7c38989c5fdc2c7 - ACK
+screenshot time: 2.68s 65156182f7c38989c5fdc2c8 - ACK
+screenshot time: 2.75s 65156183f7c38989c5fdc2c9 - ACK
+screenshot time: 2.56s 65156183f7c38989c5fdc2ca - ACK
+screenshot time: 2.61s 65156183f7c38989c5fdc2cb - ACK
+screenshot time: 2.79s 65156183f7c38989c5fdc2cc - ACK
+screenshot time: 2.71s 65156184f7c38989c5fdc2cd - ACK
+screenshot time: 2.52s 65156184f7c38989c5fdc2ce - ACK
+screenshot time: 2.77s 65156184f7c38989c5fdc2cf - ACK
+screenshot time: 2.81s 65156184f7c38989c5fdc2d0 - ACK
+screenshot time: 2.85s 65156184f7c38989c5fdc2d1 - ACK
+screenshot time: 2.63s 65156185f7c38989c5fdc2d2 - ACK
+screenshot time: 2.64s 65156185f7c38989c5fdc2d3 - ACK
+screenshot time: 2.73s 65156185f7c38989c5fdc2d4 - ACK
+screenshot time: 2.81s 65156185f7c38989c5fdc2d5 - ACK
+screenshot time: 3.22s 651564b6f7c38989c5fdc2d6 - ACK
+screenshot time: 2.92s 651564d8f7c38989c5fdc2d8 - ACK

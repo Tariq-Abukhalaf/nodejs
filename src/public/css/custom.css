@@ -1,0 +1,37 @@
+label.required:after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+.checkbox label, .radio label {
+    padding: 0px;
+}
+.input-group-xs>.form-control,
+.input-group-xs>.input-group-addon,
+.input-group-xs>.input-group-btn>.btn {
+    height: 26px;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.bs-stepper .step-trigger {
+    font-size: 100%!important;
+}
+.modal-lg {
+    max-width: 70% !important;
+}
+
+table.table-with-parameters tfoot {
+    background: #ffff9133;
+}
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    white-space: nowrap;
+}
+
+.tab-content {
+    border: 1px solid #dddddd;
+    padding: 0px 5px;
+    padding-top: 10px;
+    border-top: 0px;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "screenshot",
+  "version": "1.0.0",
+  "description": "take a screenshot using puppeteer then upload it to s3 after scale the image",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "consumer": "node src/commands/consumer.command.js",
+    "callback": "node src/commands/consumerCallback.command.js",
+    "monitor": "node src/daemons/monitorQueue.daemon.js",
+    "deploy": "./deploy.sh"
+  },
+  "keywords": [],
+  "author": "tareq abukhalaf",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.416.0",
+    "@aws-sdk/client-elastic-load-balancing-v2": "^3.414.0",
+    "@aws-sdk/client-s3": "^3.414.0",
+    "@aws-sdk/s3-request-presigner": "^3.414.0",
+    "@sparticuz/chromium": "^116.0.0",
+    "amqplib": "^0.10.3",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "puppeteer-core": "^21.2.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "sharp": "^0.32.6"
+  }
+}
